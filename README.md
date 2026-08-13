@@ -25,7 +25,7 @@
 **方式一：GitHub 源（推荐）**
 
 ```sh
-dsh plugin --profile web add "github:<你的用户名>/plugin-review#main"
+dsh plugin --profile web add "github:Mingxi2077/dsh-plugin-review#main"
 # 重启 dsh web，刷新页面
 ```
 
