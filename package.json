@@ -1,0 +1,42 @@
+{
+  "name": "plugin-review",
+  "description": "审查模式（Review Mode）：DSH 项目/代码多维健康评分 + 程序生成雷达图 + 审查历史（分类/分页/回收站）+ AI 主动触发审查。",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.mjs",
+  "exports": {
+    ".": {
+      "default": "./lib/index.mjs"
+    },
+    "./client": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "cordis": "^4.0.0-rc.7",
+    "react": "^18.2.0",
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "review",
+    "code-review",
+    "radar-chart",
+    "quality"
+  ],
+  "license": "MIT"
+}
