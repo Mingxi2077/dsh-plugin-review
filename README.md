@@ -2,7 +2,7 @@
 
 把 DeepSeek Harness 变成一个**自带代码质量审查纪律**的工作台：对项目/代码做**多维度健康评分**（程序化指标 + 雷达图可视化），支持**手动触发**、**对话指令触发**，以及 **AI 在模块/任务完成后主动触发**审查。
 
-![review](https://img.shields.io/badge/dsh-plugin-yes-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![version](https://img.shields.io/badge/version-0.1.0-blue)
+![review](https://img.shields.io/badge/dsh--plugin-yes-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![version](https://img.shields.io/badge/version-0.1.0-blue)
 
 ## 特性
 
